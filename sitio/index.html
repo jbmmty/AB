@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Albert Barrios — Arquitectura &amp; Diseño</title>
+<meta name="description" content="Albert Barrios — Arquitectura, interiorismo y diseño. Proyectos residenciales y comerciales.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Jost:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <a class="brand" href="#top">
+    <span class="brand-mark">AB</span>
+    <span class="brand-name">Albert&nbsp;Barrios</span>
+  </a>
+  <nav class="site-nav" id="siteNav" aria-label="Principal">
+    <a href="#sobre" data-i18n="nav.about">Sobre mí</a>
+    <a href="#servicios" data-i18n="nav.services">Servicios</a>
+    <a href="#proyectos" data-i18n="nav.projects">Proyectos</a>
+    <a href="#contacto" data-i18n="nav.contact">Contacto</a>
+  </nav>
+  <div class="header-tools">
+    <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+      <span data-lang-opt="es" class="is-active">ES</span><i>/</i><span data-lang-opt="en">EN</span>
+    </button>
+    <button class="nav-burger" id="navBurger" aria-label="Menú" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero-drawing" aria-hidden="true">
+    <svg viewBox="0 0 900 520" preserveAspectRatio="xMidYMax meet">
+      <g class="draw" fill="none" stroke="currentColor" stroke-width="1.1">
+        <!-- ground line -->
+        <line x1="20" y1="470" x2="880" y2="470"/>
+        <!-- main volume -->
+        <rect x="140" y="180" width="300" height="290"/>
+        <!-- second volume -->
+        <rect x="440" y="260" width="220" height="210"/>
+        <!-- tower -->
+        <rect x="660" y="120" width="110" height="350"/>
+        <!-- roof line -->
+        <line x1="140" y1="180" x2="90" y2="230"/>
+        <line x1="90" y1="230" x2="90" y2="470"/>
+        <!-- fenestration main -->
+        <line x1="185" y1="220" x2="185" y2="430"/>
+        <line x1="230" y1="220" x2="230" y2="430"/>
+        <line x1="275" y1="220" x2="275" y2="430"/>
+        <line x1="320" y1="220" x2="320" y2="430"/>
+        <line x1="365" y1="220" x2="365" y2="430"/>
+        <line x1="160" y1="250" x2="400" y2="250"/>
+        <line x1="160" y1="330" x2="400" y2="330"/>
+        <line x1="160" y1="410" x2="400" y2="410"/>
+        <!-- second volume glazing -->
+        <rect x="470" y="290" width="70" height="180"/>
+        <rect x="560" y="290" width="70" height="150"/>
+        <!-- tower detail -->
+        <line x1="690" y1="120" x2="690" y2="470"/>
+        <line x1="740" y1="120" x2="740" y2="470"/>
+        <line x1="660" y1="170" x2="770" y2="170"/>
+        <line x1="660" y1="300" x2="770" y2="300"/>
+        <!-- trees -->
+        <circle cx="60" cy="440" r="24"/>
+        <line x1="60" y1="464" x2="60" y2="470"/>
+        <circle cx="830" cy="435" r="30"/>
+        <line x1="830" y1="465" x2="830" y2="470"/>
+        <!-- human scale figure -->
+        <circle cx="510" cy="440" r="6"/>
+        <line x1="510" y1="446" x2="510" y2="466"/>
+      </g>
+    </svg>
+  </div>
+  <div class="hero-inner">
+    <p class="eyebrow" data-i18n="hero.eyebrow">Arquitectura · Interiorismo · Diseño</p>
+    <h1 class="hero-title">Albert Barrios</h1>
+    <p class="hero-sub" data-i18n="hero.sub">Espacios que se dibujan primero y se habitan después.</p>
+    <a class="btn-line" href="#proyectos" data-i18n="hero.cta">Ver proyectos</a>
+  </div>
+  <div class="hero-scroll" aria-hidden="true"><span data-i18n="hero.scroll">Desliza</span><i></i></div>
+</section>
+
+<!-- ============ SOBRE ============ -->
+<section class="section" id="sobre">
+  <div class="wrap cols">
+    <div class="col-text">
+      <p class="eyebrow bracket" data-i18n="about.eyebrow">Sobre mí</p>
+      <h2 data-i18n="about.title">Del boceto a la obra</h2>
+      <p data-i18n="about.p1">Soy arquitecto y diseñador. Acompaño cada proyecto desde la primera idea hasta el último detalle constructivo, cuidando la luz, la proporción y los materiales.</p>
+      <p data-i18n="about.p2">Trabajo proyectos residenciales, comerciales y de interiorismo, siempre con una premisa: que el espacio cuente la historia de quien lo habita.</p>
+      <a class="btn-line" href="https://www.instagram.com/albert_barrios_design/" target="_blank" rel="noopener" data-i18n="about.ig">Sígueme en Instagram</a>
+    </div>
+    <figure class="col-figure portrait-ph" aria-label="Retrato (placeholder)">
+      <span class="ph-note" data-i18n="ph.portrait">Foto de Albert — pendiente</span>
+    </figure>
+  </div>
+  <div class="wrap stats">
+    <div class="stat"><strong data-count="24">0</strong><span data-i18n="stats.projects">Proyectos realizados</span></div>
+    <div class="stat"><strong data-count="8">0</strong><span data-i18n="stats.years">Años de experiencia</span></div>
+    <div class="stat"><strong data-count="15">0</strong><span data-i18n="stats.clients">Clientes satisfechos</span></div>
+    <div class="stat"><strong data-count="3">0</strong><span data-i18n="stats.cities">Ciudades con obra</span></div>
+  </div>
+</section>
+
+<!-- ============ SERVICIOS ============ -->
+<section class="section section-dark" id="servicios">
+  <div class="wrap">
+    <p class="eyebrow bracket" data-i18n="services.eyebrow">Servicios</p>
+    <h2 data-i18n="services.title">Lo que puedo hacer por tu espacio</h2>
+    <div class="services">
+      <article class="service">
+        <h3 data-i18n="services.s1.t">Proyecto arquitectónico</h3>
+        <p data-i18n="services.s1.d">Diseño integral de obra nueva: anteproyecto, proyecto ejecutivo y acompañamiento en obra.</p>
+      </article>
+      <article class="service">
+        <h3 data-i18n="services.s2.t">Interiorismo</h3>
+        <p data-i18n="services.s2.d">Diseño de interiores residenciales y comerciales: mobiliario, materiales, iluminación y ambientación.</p>
+      </article>
+      <article class="service">
+        <h3 data-i18n="services.s3.t">Remodelación</h3>
+        <p data-i18n="services.s3.d">Transformación de espacios existentes, optimizando distribución, luz natural y funcionalidad.</p>
+      </article>
+      <article class="service">
+        <h3 data-i18n="services.s4.t">Visualización 3D</h3>
+        <p data-i18n="services.s4.d">Renders y recorridos virtuales para ver tu proyecto antes de construir el primer muro.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROYECTOS ============ -->
+<section class="section" id="proyectos">
+  <div class="wrap">
+    <p class="eyebrow bracket" data-i18n="projects.eyebrow">Proyectos</p>
+    <h2 data-i18n="projects.title">Obra seleccionada</h2>
+    <p class="section-note" data-i18n="projects.note">Las imágenes actuales son provisionales; se reemplazarán con fotografías reales de cada proyecto.</p>
+    <div class="projects">
+      <a class="project ph-a" href="#contacto">
+        <span class="project-tag" data-i18n="projects.tag.res">Residencial</span>
+        <h3 data-i18n="projects.p1">Casa — Proyecto 01</h3>
+      </a>
+      <a class="project ph-b" href="#contacto">
+        <span class="project-tag" data-i18n="projects.tag.int">Interiorismo</span>
+        <h3 data-i18n="projects.p2">Interior — Proyecto 02</h3>
+      </a>
+      <a class="project ph-c" href="#contacto">
+        <span class="project-tag" data-i18n="projects.tag.com">Comercial</span>
+        <h3 data-i18n="projects.p3">Local — Proyecto 03</h3>
+      </a>
+      <a class="project ph-d" href="#contacto">
+        <span class="project-tag" data-i18n="projects.tag.res">Residencial</span>
+        <h3 data-i18n="projects.p4">Casa — Proyecto 04</h3>
+      </a>
+      <a class="project ph-e" href="#contacto">
+        <span class="project-tag" data-i18n="projects.tag.rem">Remodelación</span>
+        <h3 data-i18n="projects.p5">Remodelación — Proyecto 05</h3>
+      </a>
+      <a class="project ph-f" href="#contacto">
+        <span class="project-tag" data-i18n="projects.tag.int">Interiorismo</span>
+        <h3 data-i18n="projects.p6">Interior — Proyecto 06</h3>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACTO ============ -->
+<section class="section section-dark" id="contacto">
+  <div class="wrap contact">
+    <p class="eyebrow bracket" data-i18n="contact.eyebrow">Contacto</p>
+    <h2 data-i18n="contact.title">Hablemos de tu proyecto</h2>
+    <p data-i18n="contact.p">Escríbeme por Instagram o correo y platicamos sin compromiso.</p>
+    <div class="contact-links">
+      <a class="btn-line" href="https://www.instagram.com/albert_barrios_design/" target="_blank" rel="noopener">@albert_barrios_design</a>
+      <a class="btn-line" href="mailto:hola@example.com" data-i18n="contact.mailLabel">correo — pendiente</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <span>© <span id="year"></span> Albert Barrios</span>
+  <span class="foot-sep" aria-hidden="true">—</span>
+  <span data-i18n="footer.tag">Arquitectura &amp; Diseño</span>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
