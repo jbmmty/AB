@@ -1,0 +1,249 @@
+15/11/2024 – Version 1.3.7
+- Updated: Theme compatible with WordPress 6.7.x
+- Updated: Revolution Slider latest version 6.7.21
+- Updated: Theme compatible with WooCommerce 9.4.1
+- Files Updated: plugin-requires.php, content-product.php, style.css
+
+18/10/2024 – Version 1.3.6
+- Updated: Revolution Slider latest version 6.7.20
+- Updated: Theme compatible with WooCommerce 9.3.3
+- Files Updated: plugin-requires.php, add-to-cart.php, pagination.php, style.css
+
+12/09/2024 – Version 1.3.5
+- Updated: Revolution Slider latest version 6.7.18
+- Files Updated: plugin-requires.php, style.css
+
+31/07/2024 – Version 1.3.4
+- Updated: Revolution Slider latest version 6.7.15
+- Updated: Theme compatible with WordPress 6.6.x
+- Updated: Theme compatible with WooCommerce 9.x
+- Files Updated: add-to-cart.php, plugin-requires.php, style.css
+
+24/06/2024 – Version 1.3.3
+- Fix: Error display product rating.
+- Updated: Theme compatible with WooCommerce 9.0.1
+- Files Updated: woocommerce.css, style.css
+
+14/06/2024 – Version 1.3.2
+- Updated: Revolution Slider latest version 6.7.13
+- Files Updated: plugin-requires.php, style.css
+
+26/04/2024 – Version 1.3.1
+- Updated: Revolution Slider latest version 6.7.8
+- Updated: Theme compatible with Elementor 3.21.x
+- Updated: Theme compatible with WordPress 6.5.x
+- Updated: Theme compatible with WooCommerce 8.8.x
+- Updated: Update the language theratio.pot file
+- Fix: Error the height of the page header can't be changed when using the Side Navigation version
+- Files Updated: plugin-requires.php, customizer.php, archive-product.php, theratio.pot, style.css
+
+11/03/2024 – Version 1.3
+- Added New: Add 8 homepages - Main Home Dark, Home Studio Dark, Architecture Agency Dark, Design Company Dark, Home Video Dark, Home One Page Dark, Side Navigation Light, Interior Design Light
+- Remove folder: ../inc/backend/data 
+- Files Updated: importer.php, style.css
+
+Version 1.2.6.3 – 04 March 2024
+- Updated: Theme compatible with Elementor 3.19.x
+- Fixed: Minor fixes CSS code.
+- Files Updated: style.css
+
+Version 1.2.6.2 – 11 January, 2024
+- Updated: Revolution Slider latest version 6.6.20
+- Updated: Theme compatible with Elementor 3.18.x
+- Improved: Enables default language and translation management for 'ot_header_builders', 'ot_footer_builders' in Polylang
+- Files Updated: plugin-requires.php, elementor.php, style.css
+
+Version 1.2.6.1 – 15 November 2023
+- Updated: Revolution Slider latest version 6.6.18
+- Updated: Theme compatible with Elementor version 3.17.x
+- Files Updated: plugin-requires.php, style.css
+
+Version 1.2.6 – 03 October 2023
+- Updated: Revolution Slider latest version 6.6.16
+- Updated: Theme compatible with Elementor version 3.16.x
+- Added: Add option select Heading HTML Tag into some widgets Elementor.
+- Fixed: Error Isotope layout in Firefox browser
+- Files Updated: plugin-requires.php, counter.php, features-box.php, flip-box.php, heading.php, icon-box-1.php, icon-box-2.php, icon-box-3.php, 
+ image-box-2.php, service-box.php, elementor.js, style.css
+
+Version 1.2.5.2 – 07 August 2023
+- Updated: Revolution Slider latest version 6.6.15
+- Updated: Theme compatible with Elementor version 3.15.1
+- Updated: RTL for Site Navigation
+- Added: Add custom active CSS for the parent menu
+- Fixed: Error slider swiper when using fade effect.
+- Fixed: Portfolio load more showing non-published articles
+- Fixed: Minor fixes CSS code.
+- Files Updated: plugin-requires.php, customizer.php, header-widgets/menu.php, elementor.js, myloadmore.js, rtl.css, style.css
+
+Version 1.2.5.1 – 13 June 2023
+- Updated: Slider Revolution 6.6.14
+- Fixed: Fixed a few minor bugs.
+- Files Updated: plugin-requires.php, style.css
+
+Version 1.2.5 – 17 April 2023
+- Updated: Slider Revolution 6.6.12
+- Updated: Theme compatible with Swiper library v8.45
+- Updated: RTL CSS file.
+- Added: New option to disable the side panel for the site.
+- Files Updated: style.css, plugin-requires.php, rtl.css, customizer.php, content-header.php, elementor-widgets/*-carousel.php
+
+Version 1.2.4 – 17 January 2023
+- Updated: Theme compatible with Elementor 3.10.0
+- Added: Add a new option to change the item active default for the Theratio Accordions widget element.
+- Files Updated: style.css, elementor.php, elementor-widgets/*.php, elementor-widgets/header/*.php
+
+Version 1.2.3 – 21 December 2022
+- Updated: Slider Revolution version 6.6.8
+- Added: Add the HTML tag option for the Page title in the theme option.
+- Fixed: Fix the styling CSS code for Contact Form 7
+- Files updated: customizer.php, page-header.php, plugin-requires.php, style.css
+
+Version 1.2.2 – 21 November 2022
+- Updated: Slider Revolution 6.6.7
+- Updated: Theme compatible with Elementor version 3.8.1
+- Updated: Theme compatible with WooCommerce 7.0.1
+- Update files: product-searchform.php, style.css
+
+Version 1.2.1 – 02 November 2022
+- Fixed: Slider not working when updating Elementor version 3.8.0
+- Updated: Slider Revolution 6.6.5
+- Update files: plugin-requires.php, elementor.js, style.css
+
+Version 1.2 – 27 September 2022
+- Updated: Slider Revolution 6.5.31
+- Updated: Elementor 3.7.7
+- Fixed: Minor fixes CSS code.
+- Changed: Function _register_controls to new function register_controls() in all advanced customize elementor widget files.
+- Update files: style.css, plugin-requires.php, elementor.js
+
+Version 1.1.12 – 16 July 2022
+- Updated: Theme compatible with Slider Revolution 6.5.25
+- Updated: Add option to upload a background image of page header for each single post
+- Fixed: Minor fixes CSS code.
+- Changed: Function _register_controls to new function register_controls() in all advanced customize elementor widget files.
+- Update files: style.css, plugin-requires.php, meta-boxes.php, page-header.php
+
+Version 1.1.11 – 08 June 2022
+- Updated: Theme compatible with WordPress 6.0
+- Updated: Theme compatible with Slider Revolution 6.5.24
+- Updated: Theme compatible with Elementor 3.6.5
+- Fixed: Minor fixes CSS code.
+- Update files: style.css, plugin-requires.php
+
+Version 1.1.10 – 09 March 2022
+- Updated: Theme compatible with WordPress version 5.9.x
+- Updated: Slider Revolution version 6.5.17
+- Updated: Theme compatible with Elementor version 3.5.6
+- Fixed: Error when uploading image in author-widget
+- Update files: plugin-requires.php, upload_media_widget.js, style.css
+
+Version 1.1.9 – 23 December 2021
+- Added: oceanthemes_date shortcode
+- Updated: Theme compatible with WPML's latest version
+- Files Updated: functions.php, wpml-compatible.php, style.css
+
+Version 1.1.8 – 21 October 2021
+- Updated: Theme compatible with WordPress 5.8.x
+- Updated: Theme compatible with WooCommerce 5.8.x
+- Added: oceanthemes_date shortcode
+- Removed: remove the line code "protected function _content_template() {}" in all Elementor Widgets files.
+- Files Updated: template-functions.php, style.css
+
+Version 1.1.7 – 09 September 2021
+- Updated: Revolution Slider version 6.5.8
+- Improved: Improving the menu mobile is closed after a click on the menu item in Onepage.
+- Files Updated: elementor-header.js, style.css
+
+Version 1.1.6 – 02 July 2021
+- Updated: Revolution Slider version 6.5.2
+- Fixed: Fix Theratio Menu Mobile widget
+- Added: Add CSS RTL for the arrow menu
+- Added: Add options typography, width, and padding for Theratio Button widget
+- Files Updated: button.php, menu-mobile.php, rtl.css, style.css
+
+Version 1.1.5 – 28 May 2021
+- Updated: Revolution Slider version 6.4.11
+- Added: 'prevent_empty' => false for all widget files using the repeater
+- Fixed: Single Post Navigation with next_post functions - template-tags.php line 235 to $nterm.
+- Fixed: Image Light Gallery works with RTL language
+- Files Updated: template-tags.php, lightgallery.css, style.css
+
+Version 1.1.4.3 – 15 April 2021
+- Updated: Revolution Slider version 6.4.6
+- Updated: Theme compatible with WPML, support header, footer, side panel, 404 page
+- Files Updated: builder.php, header.php, style.css
+
+Version 1.1.4.2 – 12 March 2021
+- Updated: Revolution Slider version 6.4.3
+- Added: Option set the Blog Grid or Blog List as default for the blog and for the archive pages
+- Fixed: Blog post slider stop work
+- Fixed: After theme installation, I got this message: Fatal error: Uncaught Error: Call to undefined function is_plugin_active() in the functions.php file
+- Files Updated: functions.php, customizer.php, post-grid.php, template-functions.php, index.php, search.php, archive.php, style.css
+
+Version 1.1.4 – 05 March 2021
+- Updated: Revolution Slider version 6.4.2
+- Updated: Compatible with WPML
+- Updated: Theme compatible with Elementor Version 3.1.3
+- Removed: Remove Swiper library in functions.php
+- Removed: Remove output default the script tag of Google Analytics, Now you will need to enter the script tag as well when copying the Google Analytics code.
+- Fixed: $repeater->get_controls()
+- Files Updated: functions.php, template-functions.php, plugin-requires.php, elementor.js, style.css
+
+Version 1.1.3.3 – 05 February 2021
+- Updated: Slider Revolution's latest version 6.3.9
+- Updated: Theme compatible with Elementor version 3.1.x
+- Update files: plugin-requires.php, style.css
+
+Version 1.1.3.2 – 18 November 2020
+- New Add: Option Popup lightbox for Portfolio
+- Improved: Icon SVG in widget Flip Box
+- Improved: Background color menu sticky
+- Changed: Prefix 'theratio' for widget Product search 
+- Fix: Megamenu works with multisite
+- Update files: elementor.php, header-widgets/menu.php, product-searchform.php, portfolio-filter.php, 
+portfolio-filter-metro.php, elementor.js, myloadmore.js, content-project.php, content-project.php, style.css
+
+Version 1.1.3.1 – 04 September 2020
+- Add: Social Share widget element
+- Add: Show category in the next post button and the previous post button on the single portfolio page
+- Improved: Improving CSS Elementor layout, Typography heading
+- Fix: jQuery Migrate Helper in admin-script.js
+- Update files: template-tags.php, admin-script.js, style.css
+
+Version 1.1.3 – 01 September 2020
+- Add: CSS active link menu in Side Navigation
+- Add: Home video, Home full screen, Home one page, 404 page
+- Fix: Change the Typography for the theme in the customizer
+- Fix: bug portfolio Ajax loads more when using a child theme
+- Improved: Option customizer for page 404
+- Add: Option for widget post-carousel, post-grid, widget button
+- Remove files: content-404.php, content-footer.php
+- Updated files: menu.php, style.css, customizer.php, color.php, template-function.php, post-carousel.php, post-grid.php, 404.php, header-builder.php, footer-builder.php, button.php, header-default.php, header-mobile.php, function.php
+
+Version 1.1.2 – 26 August 2020
+- Updated: Revolution Slider version 6.2.22
+- Updated: Theme compatible with Elementor version 3.x
+- Files Edited: style.css
+
+Version 1.1.1 – 08 August 2020
+- Add New: Add option icon for process box widget
+- Add New: Add custom CSS highlight for menu one page
+- Updated: Demo Content XML file
+- Improved: Improving the CSS, JS, and PHP code
+- Fixed: Preloader color text.
+- File Edited: header-builder.php , content-header.php, content-vheader.php, functions.php, script.js, style.css
+
+Version 1.1.0 – 03 August 2020
+- Add New: Before-After widget element, List Menus widget element
+- Add New: Three options preload for Logo, Scale Text, Progress 
+- Add New files: before-after.php, list-menu-item.php, before-after.js
+- Updated: .POT Language file
+- Updated: Demo Content XML file
+- Updated: Icon of Widget Accordions
+- Improved: Improving some spacing of the text on the demo, functional in a few widgets
+- Fixed: Minor fixes and improvements
+- File Updated: elementor.js, script.js, style.css, accordions.php, functions.php, elementor.php, menu.php, elementor-widgets/widgets.php, header-widgets/widgets.php
+
+Version 1.0 – 15 July 2020
+* Initial release
